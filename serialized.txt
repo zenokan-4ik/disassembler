@@ -1,0 +1,124 @@
+add Rd,Rr
+adc Rd,Rr
+adiw Rdl,K
+sub Rd,Rr
+sbc Rd,Rr
+subi Rd,K
+sbci Rd,K
+sbiw Rdl,K
+and Rd,Rr
+andi Rd,K
+or Rd,Rr
+ori Rd,K
+eor Rd,Rr
+com Rd
+neg Rd
+sbr Rd,K
+cbr Rd,K
+inc Rd
+dec Rd
+tst Rd
+clr Rd
+ser Rd
+mov Rd,Rr
+movw Rd,Rr
+ldi Rd,K
+ld Rd,X
+ld Rd,X+
+ld Rd, -X
+ld Rd,Y
+ld Rd,Y+
+ld Rd, -Y
+ldd Rd,Y+q
+ld Rd,Z
+ld Rd,Z+
+ld Rd, -Z
+ldd Rd,Z+q
+lds Rd,k
+st X,Rr
+st X+,Rr
+st -X,Rr
+st Y,Rr
+st Y+,Rr
+st -Y,Rr
+std Y+q,Rr
+st Z,Rr
+st Z+,Rr
+st -Z,Rr
+std Z+q,Rr
+sts k,Rr
+lpm
+lpm Rd,Z
+lpm Rd,Z+
+spm
+in Rd,P
+out P,Rr
+push Rr
+pop Rd
+rjmp k
+ijmp
+*jmp k
+rcall k
+icall
+*call k
+ret
+reti
+cpse Rd,Rr
+cp Rd,Rr
+cpc Rd,Rr
+cpi Rd,K
+sbrc Rr,b
+sbrs Rr,b
+sbic P,b
+sbis P,b
+brbc s,k
+brbs s,k
+brcc k
+brcs k
+brsh k
+brlo k
+brne k
+breq k
+brpl k
+brmi k
+brvc k
+brvs k
+brge k
+brlt k
+brhc k
+brhs k
+brtc k
+brts k
+brid k
+brie k
+sbi P,b
+cbi P,b
+lsl Rd
+lsr Rd
+rol Rd
+ror Rd
+asr Rd
+swap Rd
+bst Rr,b
+bld Rd,b
+bset s
+bclr s
+sec
+clc
+sez
+clz
+sen
+cln
+sev
+clv
+ses
+cls
+seh
+clh
+set
+clt
+sei
+cli
+nop
+sleep
+wdr
